@@ -1,3 +1,3 @@
 ![Logo](https://i.ibb.co/DKDDLdM/Home-Image.png)
-[Link:](https://subramanis55.github.io/Portfolio/)
+[Portfolio Site](https://subramanis55.github.io/Portfolio/)
 
