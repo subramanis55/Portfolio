@@ -56,11 +56,12 @@ z-index: 100;
     color: var(--text-color);
     margin-left: 4rem;
     font-weight: 700;
+    transition: .4s;
 }
 .navbar a:hover,
 .navbar a:active{
-    color: var(--text-color);
-
+    color:var(--button-color);
+    
 }
 #menu-icon{
     font-size: 3.6rem;
@@ -234,18 +235,24 @@ align-items: flex-start;
 }
 .teckstack-box i{
     font-size: 5rem;
+    font-weight: 700;
     color:var(--button-color);
 }
 .teckstack h4{
     font-size: 1.6rem;
     margin-bottom: 1rem;
 }
+.InternCompany{
+    float: left;
+    clear: left;
+}
 .teckstack-box h3{
+    margin-top: 2rem;
     margin-bottom: 1.5rem;
     font-size: 2.6rem;
 }
 .teckstack-box p{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin: 1rem 0 3rem;
 }
 
@@ -401,6 +408,13 @@ padding: .8rem 1rem;
 background-color: var(--button-color);
 border-radius: .8rem;
 }
+.BottomContact{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 1.5rem;
+}
 /* reposive media qurey */
 @media(max-width:1200px){
 html{
@@ -432,7 +446,7 @@ padding-bottom: 7rem;
     display:block; 
 }
 .navbar{
-    position: absolute;
+     position: absolute;
     top: 100%;
     left:0;
     width: 100%;
@@ -451,6 +465,7 @@ padding-bottom: 7rem;
     margin: 3rem 0;
     transition: 0.2ms ease;
 }
+
 
 .home {
     flex-direction: column; 

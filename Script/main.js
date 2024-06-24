@@ -35,16 +35,16 @@ window.onscroll=()=>{
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
-menuIcon.onclick = () => {
+menuIcon.onclick = () => {;
     menuIcon.classList.toggle('fa-xmark');
-    if (navbar.style.display ==='none') {
+    if (navbar.style.display === 'block') {
        // menuIcon.classList.toggle('fa-xmark');
-        navbar.style.display = 'block';
+        navbar.style.display = 'none';
     }
      else {
       //  menuIcon.classList.toggle('fa-bars');
         //navbar.classList.toggle('active');
-        navbar.style.display = 'none';
+        navbar.style.display = 'block';
     }
     
 }
@@ -72,7 +72,7 @@ function SendEmail(){
             Subject:document.getElementById('subject').value,
             Body:document.getElementById('message').value+"<br><br> Name:"+document.getElementById('name').value+ "<br> Contact : "+document.getElementById('phone').value
         }).then(
-          message => alert(message)
+          message => alert("Mail Currently not working try Directy!")
         );
         document.getElementById('subject').value=""; 
         document.getElementById('message').value=""; 
