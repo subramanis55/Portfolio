@@ -60,7 +60,9 @@ function downloadCV() {
     link.click();
     document.body.removeChild(link);
 }
-
+function MessageSent(){
+  
+}
 function SendEmail(){
     
         Email.send({
